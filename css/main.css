@@ -18,6 +18,7 @@ body{
     height: 54px;
     background-color: #053C5E;
     color:#D8B4A0;
+    z-index: +1;
 }
 
 #menu-link-group{
