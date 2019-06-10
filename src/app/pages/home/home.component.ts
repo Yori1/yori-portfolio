@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuComponent } from 'src/app/shared/menu/menu.component'
+import { Project } from './project';
+import { ProjectsHelper } from './projects.helper';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +10,11 @@ import { MenuComponent } from 'src/app/shared/menu/menu.component'
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  private projects: Project[];
+
+  constructor() {
+    this.projects = ProjectsHelper.getProjects();
+   }
 
   ngOnInit() {
   }
