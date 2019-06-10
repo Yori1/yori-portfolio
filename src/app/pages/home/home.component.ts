@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MenuComponent } from 'src/app/shared/menu/menu.component'
 
 @Component({
   selector: 'app-home',
