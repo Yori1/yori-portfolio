@@ -18,7 +18,7 @@ module.exports = [[module.i, "/* Preload images */\nbody:after {\n  content: url
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\r\nbody{\r\n    background-color: #BFDBF7 !important;\r\n    font-size: 0.8em;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RTtBQUM5RTtJQUNJLG9DQUFvQztJQUNwQyxnQkFBZ0I7QUFDcEIiLCJmaWxlIjoic3JjL3N0eWxlcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXHJcbmJvZHl7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjQkZEQkY3ICFpbXBvcnRhbnQ7XHJcbiAgICBmb250LXNpemU6IDAuOGVtO1xyXG59Il19 */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\nbody{\n    background-color: #BFDBF7 !important;\n    font-size: 0.8em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RTtBQUM5RTtJQUNJLG9DQUFvQztJQUNwQyxnQkFBZ0I7QUFDcEIiLCJmaWxlIjoic3JjL3N0eWxlcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXG5ib2R5e1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNCRkRCRjcgIWltcG9ydGFudDtcbiAgICBmb250LXNpemU6IDAuOGVtO1xufSJdfQ== */", '', '']]
 
 /***/ }),
 
@@ -598,8 +598,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Yori\Documents\Projects\yori-portfolio\src\styles.css */"./src/styles.css");
-module.exports = __webpack_require__(/*! C:\Users\Yori\Documents\Projects\yori-portfolio\node_modules\ngx-lightbox\lightbox.css */"./node_modules/ngx-lightbox/lightbox.css");
+__webpack_require__(/*! C:\Users\yorep\Documents\projects\yori-portfolio\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\yorep\Documents\projects\yori-portfolio\node_modules\ngx-lightbox\lightbox.css */"./node_modules/ngx-lightbox/lightbox.css");
 
 
 /***/ })
