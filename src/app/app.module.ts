@@ -5,18 +5,19 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './shared/menu/menu.component';
-import { MenuItemComponent } from './shared/menu/menu-item/menu-item.component';
+import { LightboxModule } from 'ngx-lightbox';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     MenuComponent,
-    MenuItemComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LightboxModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

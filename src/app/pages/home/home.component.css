@@ -5,24 +5,17 @@ body{
     background-color: #BFDBF7 !important;
 }
 
-#menu-link-group{
-    float: left;
-    margin-left: 5px;
+p {
+    font-size: 1.4em;
 }
 
-#menu-link-group > div{
-    margin-top: 6px;
-    float:left;
-    padding:8px;
-    color: #BFDBF7;
-    border-color: #4682B4;
-    border-style: solid;
-    border-width: 0px 2px 0px 0px;
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
 }
 
-#menu-link-group > div:hover{
-    border-color: #BFDBF7   ;
-}
 
 #logo-list{
     list-style-type:none;
@@ -38,14 +31,9 @@ body{
 
 #picture{
     border-radius: 50%;
+    width: 15em;
 }
 
-@media screen and (max-width: 820px) {
-    #picture{
-        height: 150px;
-        width: 150px;
-    }
-}
 
 .separator{
     height: auto;
@@ -59,7 +47,7 @@ body{
 }
 
 .header{
-    font-size: 300%;
+    font-size: 2.0em;
     color: #053C5E;
     font-family: 'Righteous', cursive;
 }
@@ -71,6 +59,12 @@ body{
     font-family: 'Righteous', cursive;
 }
 
+.thumbnail {
+    width: 15em;
+}
+
+
 #programming-languages > img{
     margin: 7px;
+    width: 4em;
 }

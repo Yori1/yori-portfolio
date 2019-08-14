@@ -1,26 +1,4 @@
 <app-menu></app-menu>
-<!--<div id="upper-bar">
-    
-    <div id="menu-link-group">
-        <div>About me</div>
-        <div>Kanji Shoubu</div>
-        <div>Attack Defend</div>
-    </div>
-    <ul id="logo-list">
-        <li>
-            <a target="_blank" href="https://github.com/Yori1">
-                <img id="github-logo" class="logo" src="./assets/images/github-logo.png">
-            </a>
-        </li>
-        <li>
-            <a target="_blank" href="https://www.linkedin.com/in/yori-garcia-rosario-b5021b135/">
-                <img id="linkedin-logo" class="logo" src="./assets/images/linkedin-logo.png">
-            </a>
-  
-        </li>
-  
-    </ul>
-  </div>-->
   <div id="content" class="container">
     <div class="row">
         <div class="col-md-9">
@@ -33,9 +11,8 @@
                     Smart Mobile.
                 </p>
                 <p>
-                    I'm very passionate about building software that the user wants, and I'm always
-                    trying to follow the newest best coding practices. I have experience making desktop
-                    applications, webapplications (both frontend and backend), mobile applications and JSON APIs.
+                    I have experience making desktop
+                    applications, fullstack webapplications, mobile applications and APIs.
                 </p>
                 <p>
                     When I'm not working on software, I like playing video games, exercising or learning Japanese.
@@ -44,31 +21,40 @@
   
         </div>
         <div class="col-md-3">
-            <img id="picture" src="./assets/images/picture.png" />
+            <img id="picture" src="./assets/images/picture.jpg" />
         </div>
     </div>
     <div class="separator"></div>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-8">
             <div class="sub-title">Kanji Shoubu</div>
             <p>
-                Kanji Shoubu is a webapp built with Spring Boot and MySQL. It's an application that allows logged in
-                users to view a list
-                of all online users, and challenge one of the users to a game of trying to read Japanese sentences.
-                When the challenge has been accepted, both players try to correctly read the same sequence of
-                sentences. The user guesses the reading
-                by typing in the reading in either alphabet characters or Japanese characters, and is then shown the
-                next sentence.
-                At the end, the player with the largest amount of correct readings wins, if that's the same the
-                fastest player wins.
-                This is all accomplished using Spring Boot websocket connections combined with StompJS.
+                An application made to help users specifically train their ability to read words in kanji (漢字).
+                It's different from a flash-card app, because the app can assemble a list of Japanese sentences for the words the user wants to learn,
+                 by querying the public Tatoeba-database with thousands of real Japanese sentences in it. 
+
             </p>
             <p>
-                <i>Under construction</i>
+                Japanese readings of kanji are generated using the MeCab library for Japanese character transcription.
+
             </p>
+
+            <p>
+                Users can practice their sentences by themselves, or they can challenge other players who are online in a race to see who can accurately answer the fastest.
+            </p>
+            <div class="flexbox-container">
+
+            
+                  </div>
         </div>
-        <div class="col-md-8">
-  
+        <div class="col-md-4">
+                <div  *ngFor="let image of _albums; let i=index">
+                        <div class="flex-columns">
+                                <img  class="thumbnail" [src]="image.thumb" (click)="open(i)"/>
+        
+                        </div>
+        
+                        </div>
         </div>
     </div>
   
@@ -82,5 +68,6 @@
         <img src="./assets/images/programming-languages/typescript-logo.png">
         <img src="./assets/images/programming-languages/mysql-logo.png">
         <img src="./assets/images/programming-languages/sql-server-logo.png">
-        <div>
+
+        </div>
         </div>
