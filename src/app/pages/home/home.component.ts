@@ -10,7 +10,7 @@ import { Lightbox } from 'ngx-lightbox';
 
 export class HomeComponent {
 
-  private _albums = [];
+  public _albums = [];
   constructor(private _lightbox: Lightbox) {
     for (let i = 1; i <= 4; i++) {
       const src = './assets/images/shoubu/'+ i +'.png';
